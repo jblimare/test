@@ -4,7 +4,22 @@ alert("Bonjour " + Player1);
 
 
 // Player 1 choice
-let player1Choice = prompt ("Choose between Rock, Cissors and Paper");
+let player1Choice = prompt ("Choose between Rock, Cissors and Paper")
+
+// Function to capitalise the player's choice so that it matches the acceptable answers - FAILED SO FAR
+// Something with .toUppercase() 
+
+// Loop to check that the player's choice is valid - FAILED SO FAR
+/*
+while (player1Choice != "Cissors" && "Rock" && "Paper") {
+  alert ("Wrong choice, please enter Rock, Cissors or Paper");
+  player1Choice = prompt ("Choose between Rock, Cissors and Paper");
+  }
+*/
+
+
+console.log(player1Choice);
+
 let value1 = " ";
 
 // Assign value to Player 1 choice
@@ -18,7 +33,7 @@ switch (player1Choice) {
   case player1Choice = "Cissors":
     value1 = 2;
     break;
-  default: "Error";
+  default: value1 = "Error";
 };
 
 console.log(value1);
